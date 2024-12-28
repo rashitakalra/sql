@@ -35,6 +35,7 @@ each new market date for each customer, or select only the unique market dates p
 HINT: One of these approaches uses ROW_NUMBER() and one uses DENSE_RANK(). */
 
 Using ROW_NUMBER():
+
 SELECT 
     customer_id,
     market_date,
